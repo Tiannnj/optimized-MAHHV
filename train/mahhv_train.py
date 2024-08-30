@@ -168,7 +168,7 @@ def main(args):
     else:
         from runner.separated.env_runner import EnvRunner as Runner
 
-    print('begin run')
+    print('begin to run')
 
     runner = Runner(config)
     runner.run()
